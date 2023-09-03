@@ -1,0 +1,91 @@
+
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  height: 75px;
+  position: fixed;
+  top: 0;
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  margin-left: 60px;
+}
+
+.logo img {
+  width: 120px;
+  padding-left: 10px;
+}
+
+.conteudohome {
+  text-align: center;
+  padding: 80px;
+  font-size: large;
+}
+
+h1 {
+  font-size:2em ;
+}
+
+.credito {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgb(59, 57, 138);
+  color:#eee
+}
+
+figure img {
+  width:384px;
+}
+
+.sobre {
+  text-align: center;
+  padding: 80px;
+  font-size: large;
+}
+
+.matricula {
+  padding: 300px;
+  text-align: center;
+}
+
+#DescricaoCurso {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#idEmenta h2{
+  text-align: center;
+  color: #eee;
+  background-color: rgb(59, 57, 138);
+}
+
+.tabs {
+  padding-left: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  padding-left: 10px;
+  display: flex;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  gap: 50px;
+}
+
+
